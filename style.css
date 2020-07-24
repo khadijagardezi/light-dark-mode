@@ -1,0 +1,46 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.contain {
+    display: flex;
+    justify-content: space-evenly;
+}
+.black {
+    color: black;
+    font-weight: bolder;
+    font-size: x-large;
+    padding-left: 10px;
+}
+.blue {
+    color: rgb(61, 61, 240);
+    margin-left: 1rem;
+}
+
+.check {
+    background-color: black;
+    color: white;
+}
+
+p  {
+margin: 2em 20em;
+font-size: large;
+}
+h3 {
+    margin: 2em 15em;
+    font-size: x-large;
+    color: crimson;
+}
+.darkMode {
+    margin-top: 20px;
+    background-color:#1b262c;
+    color:white;
+    height: 30px;
+    border: none;
+}
+.darkMode:hover {
+    
+    color:black;
+    height: 30px;
+}
