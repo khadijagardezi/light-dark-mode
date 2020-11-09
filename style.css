@@ -49,16 +49,17 @@ h3 {
 
 button {
     padding: 15px 10px;
-    background-color: #1b262c;
-    color : white;
+    background-color:  white;
+    color : #1b262c;
     border: none;
     border-radius: 20%;
 }
 
 .dark button {
     padding: 15px 10px;
-    background-color:  white;
-    color : #1b262c;
+    background-color: #1b262c;
+    color : white;
+    /* border-color: 3px solid #1b262c; */
     border: none;
     border-radius: 20%;
 
