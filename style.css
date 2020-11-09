@@ -32,15 +32,34 @@ h3 {
     font-size: x-large;
     color: crimson;
 }
-.darkMode {
-    margin-top: 20px;
-    background-color:#1b262c;
-    color:white;
-    height: 30px;
-    border: none;
+.dark {
+    background-color : #1b262c;
+    color : white;
+
 }
-.darkMode:hover {
-    
-    color:black;
-    height: 30px;
+.dark .black {
+    color : #ff6363;
+}
+.dark .blue{
+    color : yellow;
+}
+.dark .h3 {
+    color : yellow;
+}
+
+button {
+    padding: 15px 10px;
+    background-color: #1b262c;
+    color : white;
+    border: none;
+    border-radius: 20%;
+}
+
+.dark button {
+    padding: 15px 10px;
+    background-color:  white;
+    color : #1b262c;
+    border: none;
+    border-radius: 20%;
+
 }
